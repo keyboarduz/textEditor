@@ -1,0 +1,12 @@
+<?php
+return [
+    'settings' => [
+        'displayErrorDetails' => true, // Should be set to false in production
+        'db' => [
+            'dsn' => 'mysql:host=localhost;dbname=demo',
+            'username' => 'username',
+            'password' => 'password'
+        ]
+    ],
+    'upload_directory' => '/uploads/images',
+];
